@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/tvNgay"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="16"
+        android:layout_marginLeft="5dp"
+        android:text="Ngay" />
+
+    <TextView
+        android:id="@+id/tvPhong"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="10"
+        android:layout_marginLeft="5dp"
+        android:text="Phong" />
+
+    <TextView
+        android:id="@+id/tvMon"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="56"
+        android:layout_marginLeft="5dp"
+        android:text="Mon" />
+
+
+    <TextView
+        android:id="@+id/tvThoiGian"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="18"
+        android:layout_marginLeft="5dp"
+        android:text="ThoiGian" />
+
+</LinearLayout>

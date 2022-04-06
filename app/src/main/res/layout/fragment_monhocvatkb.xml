@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="1dp"
+                    android:weightSum="100" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="15"
+                        android:background="#07a4b3"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:gravity="center|left"
+                        android:paddingLeft="5dp"
+                        android:text="Tín chỉ" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_weight="85"
+                        android:background="#07a4b3"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:gravity="center|left"
+                        android:paddingLeft="5dp"
+                        android:text="Môn học" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/lvMonHocDaDangKy"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></ListView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="1dp"
+                    android:weightSum="100"
+                     >
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="20"
+                        android:background="#07a4b3"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:gravity="center|left"
+                        android:paddingLeft="5dp"
+                        android:text="Ngày" />
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="6"
+                        android:background="#07a4b3"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:gravity="center|left"
+                        android:paddingLeft="3dp"
+                        android:text="Phòng" />
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="50"
+                        android:background="#07a4b3"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:gravity="center|left"
+                        android:paddingLeft="5dp"
+                        android:text="Môn" />
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="24"
+                        android:background="#07a4b3"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:gravity="center|left"
+                        android:paddingLeft="5dp"
+                        android:text="Thời gian" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/lvLichHoc"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+        </ListView>
+    </LinearLayout>
+</FrameLayout>

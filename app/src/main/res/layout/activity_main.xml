@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_margin="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/course"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/course"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/map"/>
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/News"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/news"/>
+        <TextView
+            android:layout_marginLeft="21dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/social"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/social"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social"/>
+    </LinearLayout>
+</LinearLayout>
